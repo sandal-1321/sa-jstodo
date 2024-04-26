@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/5ab81bb33c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="todo.png" />
+    <title>ToDo</title>
+</head>
+<body>
+    <section>
+        <nav class="navi">
+            <h1><i class="fa-regular fa-clipboard"></i> ToDo Crud</h1>
+        </nav>
+        <head>
+            <div class="sec-1">
+                <div class="sec-1-1">
+                    <input type="text" name="tex" id="text" placeholder="Enter The Text ... " autocomplete="off"  />
+                    <button onclick="submit(event)">Submit</button>
+                </div>
+                
+            </div>
+            <div class="sec-2">
+                <ul class="unl">
+                    <li>
+                        <p>Meal</p>
+                        <div>
+                            <i class="fa-solid fa-pen-to-square" onclick="edit(event)"></i>
+                            <i class="fa-solid fa-trash" onclick="remove(event)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Milk</p>
+                        <div>
+                            <i class="fa-solid fa-pen-to-square" onclick="edit(event)"></i>
+                            <i class="fa-solid fa-trash" onclick="remove(event)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Rice</p>
+                        <div>
+                            <i class="fa-solid fa-pen-to-square" onclick="edit(event)"></i>
+                            <i class="fa-solid fa-trash" onclick="remove(event)"></i>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </head>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
